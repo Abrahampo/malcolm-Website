@@ -53,7 +53,7 @@ body{
 #food-container{
     background: burlywood;
     overflow: scroll;
-    overflow: hidden;
+    overflow-x: hidden;
     box-sizing: content-box;
 
 }
@@ -78,7 +78,7 @@ body{
 
 }
 .your-address{
-    border: 2px solid indianred;
+    border: 3px solid indianred;
     color: indianred;
     padding:   3px 20px;
     border-radius: 20px;
@@ -88,5 +88,40 @@ body{
     text-overflow: ellipsis;
     cursor: pointer;
 }
+
+.add-box i{
+    font-size: 20px;
+}
+
+.util i,.user i{
+    font-size: 18px;
+    margin: 5 16px;
+    border: 2px solid crimson;
+    padding: 4px 20px;
+    color: crimson;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.util i:active{
+    color: wheat;
+    background: crimson;
+}
+
+
+
+.food-items{
+
+
+}
+
+
+#Chicken,#Veggie-Fried-Rice,#Dried-Rice,#Pizza{
+margin: 40px;
+
+}
+
+#
+
 
 
